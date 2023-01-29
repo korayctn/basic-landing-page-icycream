@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100;12..72,200;12..72,300;12..72,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Patrick Hand", cursive;
+  font-size: 10px;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: whitesmoke;
+  font-size: 2.4em;
+}
+.header-title::after {
+  display: block;
+  content: "";
+  margin-top: 2px;
+  background-color: black;
+  width: auto;
+  height: 2px;
+}
+.main-content {
+  font-family: "Courgette", cursive;
+}
+.content-section {
+  background-color: #feacef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ice-cream-logo {
+  max-width: 800px;
+  height: auto;
+}
+.content-section-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.content-section-text h2 {
+  font-size: 5.4rem;
+  margin-top: 30px;
+}
+.content-section-text p {
+  font-family: "Truculenta", sans-serif;
+  margin-top: 20px;
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+.content-section-2 {
+  background-color: rgb(171, 241, 241);
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.ice-cream-logo-2 {
+  width: 25%;
+  margin-left: 10%;
+}
+.alignment {
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  background-color: rgb(252, 127, 127);
+  color: white;
+  font-family: "Truculenta", sans-serif;
+  font-weight: 200;
+  display: flex;
+  font-size: 3rem;
+}
+.social-media-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: auto;
+  width: 50%;
+}
+.footer-text-part {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  padding: 15px;
+}
+.social-media-container i {
+  margin-top: 20px;
+  font-size: 3rem;
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  top: 0;
+}
+.social-media-container i:hover {
+  position: relative;
+  top: -5px;
+  transition: all 0.5s ease-in-out;
+}
